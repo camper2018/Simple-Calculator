@@ -1,4 +1,4 @@
-$(function() {
+ $(function() {
   let firstOperant = ""
   let secondOperant = "";
   let operator = null;
@@ -18,11 +18,6 @@ $(function() {
           result+='e';
         }
         displayValue = result;
-        isFirstOperantDone = false;
-        firstOperant = '';
-        secondOperant =  '';
-        operator = null;
-        isNegative = false;
       }
     // when backspace is pressed ,remove one digit from the end
     }else if (e.target.value === 'backspace') {
